@@ -50,7 +50,7 @@ ui <- fluidPage(
             sidebarPanel(
                     selectInput("group", label = h3("Age group"),
                                 choices = list("Pre-K" = "Pre_K", "Kindergarten" = "Kindergarten", "Grades 1 - 3" = "Grades_1_to_3", "Grades 4 - 6" = "Grades_4_to_6", "Total" = "Total"),
-                                selected = Total),
+                                selected = "Pre_K"),
                     p("Choose the group you wish to see. Default is total attendance per night.")    
             ),
             
